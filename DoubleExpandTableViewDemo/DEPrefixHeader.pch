@@ -1,0 +1,15 @@
+//
+//  DEPrefixHeader.pch
+//  DoubleExpandTableViewDemo
+//
+//  Created by 董志玮 on 2019/9/25.
+//  Copyright © 2019 董志玮. All rights reserved.
+//
+
+#ifndef DEPrefixHeader_pch
+#define DEPrefixHeader_pch
+#import <Masonry/Masonry.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DEPrefixHeader_pch */

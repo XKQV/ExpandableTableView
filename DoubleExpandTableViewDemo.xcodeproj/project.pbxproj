@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16928363233F2F5E001A1293 /* ExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16928362233F2F5E001A1293 /* ExpandableTableView.m */; };
+		468D3EA545D96F2DD6E93C1E /* libPods-DoubleExpandTableViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F45A4D91468056B345802A /* libPods-DoubleExpandTableViewDemoTests.a */; };
+		CB37668044A0024DBD107993 /* libPods-DoubleExpandTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4CA783DE8529D948E9B532 /* libPods-DoubleExpandTableViewDemo.a */; };
+		D7D6E0689AAD7453BFC187C5 /* libPods-DoubleExpandTableViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1DD1A8EE792F737385AF19 /* libPods-DoubleExpandTableViewDemoUITests.a */; };
+		EA4B1F02233C65E500615DB0 /* ExpandableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4B1F01233C65E500615DB0 /* ExpandableTableViewCell.m */; };
+		EA8A08CB233C8CE300430524 /* ExperienceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A08CA233C8CE300430524 /* ExperienceModel.m */; };
+		EAA2B450233B807D00CF8493 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B44F233B807D00CF8493 /* AppDelegate.m */; };
+		EAA2B453233B807D00CF8493 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B452233B807D00CF8493 /* SceneDelegate.m */; };
+		EAA2B456233B807D00CF8493 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B455233B807D00CF8493 /* ViewController.m */; };
+		EAA2B459233B807D00CF8493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA2B457233B807D00CF8493 /* Main.storyboard */; };
+		EAA2B45B233B808000CF8493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA2B45A233B808000CF8493 /* Assets.xcassets */; };
+		EAA2B45E233B808000CF8493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA2B45C233B808000CF8493 /* LaunchScreen.storyboard */; };
+		EAA2B461233B808000CF8493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B460233B808000CF8493 /* main.m */; };
+		EAA2B46B233B808100CF8493 /* DoubleExpandTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B46A233B808100CF8493 /* DoubleExpandTableViewDemoTests.m */; };
+		EAA2B476233B808100CF8493 /* DoubleExpandTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B475233B808100CF8493 /* DoubleExpandTableViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA2B467233B808100CF8493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA2B443233B807D00CF8493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA2B44A233B807D00CF8493;
+			remoteInfo = DoubleExpandTableViewDemo;
+		};
+		EAA2B472233B808100CF8493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA2B443233B807D00CF8493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA2B44A233B807D00CF8493;
+			remoteInfo = DoubleExpandTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1DD1A8EE792F737385AF19 /* libPods-DoubleExpandTableViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoubleExpandTableViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16928361233F2F5E001A1293 /* ExpandableTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandableTableView.h; sourceTree = "<group>"; };
+		16928362233F2F5E001A1293 /* ExpandableTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableView.m; sourceTree = "<group>"; };
+		1816CBD33EFA22FB0CF99A75 /* Pods-DoubleExpandTableViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleExpandTableViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleExpandTableViewDemoTests/Pods-DoubleExpandTableViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5651927F33A902E7C0AFC281 /* Pods-DoubleExpandTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleExpandTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleExpandTableViewDemo/Pods-DoubleExpandTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		583B0CF6C7110C2CAAE209D4 /* Pods-DoubleExpandTableViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleExpandTableViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleExpandTableViewDemoTests/Pods-DoubleExpandTableViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4CA783DE8529D948E9B532 /* libPods-DoubleExpandTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoubleExpandTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDF511E85580ABD025E2AB6 /* Pods-DoubleExpandTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleExpandTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleExpandTableViewDemo/Pods-DoubleExpandTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9CDCCBE0E99931D70991DB36 /* Pods-DoubleExpandTableViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleExpandTableViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleExpandTableViewDemoUITests/Pods-DoubleExpandTableViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A72264505873888E31583733 /* Pods-DoubleExpandTableViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleExpandTableViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleExpandTableViewDemoUITests/Pods-DoubleExpandTableViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4F45A4D91468056B345802A /* libPods-DoubleExpandTableViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoubleExpandTableViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4B1F00233C65E500615DB0 /* ExpandableTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandableTableViewCell.h; sourceTree = "<group>"; };
+		EA4B1F01233C65E500615DB0 /* ExpandableTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableViewCell.m; sourceTree = "<group>"; };
+		EA8A08C9233C8CE300430524 /* ExperienceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExperienceModel.h; sourceTree = "<group>"; };
+		EA8A08CA233C8CE300430524 /* ExperienceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExperienceModel.m; sourceTree = "<group>"; };
+		EAA2B44B233B807D00CF8493 /* DoubleExpandTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleExpandTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA2B44E233B807D00CF8493 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAA2B44F233B807D00CF8493 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAA2B451233B807D00CF8493 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EAA2B452233B807D00CF8493 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EAA2B454233B807D00CF8493 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAA2B455233B807D00CF8493 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAA2B458233B807D00CF8493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA2B45A233B808000CF8493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA2B45D233B808000CF8493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA2B45F233B808000CF8493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA2B460233B808000CF8493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAA2B466233B808100CF8493 /* DoubleExpandTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleExpandTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA2B46A233B808100CF8493 /* DoubleExpandTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleExpandTableViewDemoTests.m; sourceTree = "<group>"; };
+		EAA2B46C233B808100CF8493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA2B471233B808100CF8493 /* DoubleExpandTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleExpandTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA2B475233B808100CF8493 /* DoubleExpandTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleExpandTableViewDemoUITests.m; sourceTree = "<group>"; };
+		EAA2B477233B808100CF8493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA2B483233B81BB00CF8493 /* DEPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEPrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA2B448233B807D00CF8493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB37668044A0024DBD107993 /* libPods-DoubleExpandTableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA2B463233B808100CF8493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468D3EA545D96F2DD6E93C1E /* libPods-DoubleExpandTableViewDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA2B46E233B808100CF8493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D6E0689AAD7453BFC187C5 /* libPods-DoubleExpandTableViewDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C3C04AB2B95752CCBE6E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4CA783DE8529D948E9B532 /* libPods-DoubleExpandTableViewDemo.a */,
+				E4F45A4D91468056B345802A /* libPods-DoubleExpandTableViewDemoTests.a */,
+				0B1DD1A8EE792F737385AF19 /* libPods-DoubleExpandTableViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946BCBE40358F7E4D1B36C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5651927F33A902E7C0AFC281 /* Pods-DoubleExpandTableViewDemo.debug.xcconfig */,
+				8EDF511E85580ABD025E2AB6 /* Pods-DoubleExpandTableViewDemo.release.xcconfig */,
+				583B0CF6C7110C2CAAE209D4 /* Pods-DoubleExpandTableViewDemoTests.debug.xcconfig */,
+				1816CBD33EFA22FB0CF99A75 /* Pods-DoubleExpandTableViewDemoTests.release.xcconfig */,
+				9CDCCBE0E99931D70991DB36 /* Pods-DoubleExpandTableViewDemoUITests.debug.xcconfig */,
+				A72264505873888E31583733 /* Pods-DoubleExpandTableViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA8A08CC233C8CF300430524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA8A08C9233C8CE300430524 /* ExperienceModel.h */,
+				EA8A08CA233C8CE300430524 /* ExperienceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAA2B442233B807D00CF8493 = {
+			isa = PBXGroup;
+			children = (
+				EAA2B44D233B807D00CF8493 /* DoubleExpandTableViewDemo */,
+				EAA2B469233B808100CF8493 /* DoubleExpandTableViewDemoTests */,
+				EAA2B474233B808100CF8493 /* DoubleExpandTableViewDemoUITests */,
+				EAA2B44C233B807D00CF8493 /* Products */,
+				946BCBE40358F7E4D1B36C4C /* Pods */,
+				72C3C04AB2B95752CCBE6E42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA2B44C233B807D00CF8493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2B44B233B807D00CF8493 /* DoubleExpandTableViewDemo.app */,
+				EAA2B466233B808100CF8493 /* DoubleExpandTableViewDemoTests.xctest */,
+				EAA2B471233B808100CF8493 /* DoubleExpandTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA2B44D233B807D00CF8493 /* DoubleExpandTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2B44E233B807D00CF8493 /* AppDelegate.h */,
+				EAA2B44F233B807D00CF8493 /* AppDelegate.m */,
+				EAA2B451233B807D00CF8493 /* SceneDelegate.h */,
+				EAA2B452233B807D00CF8493 /* SceneDelegate.m */,
+				EAA2B454233B807D00CF8493 /* ViewController.h */,
+				EAA2B455233B807D00CF8493 /* ViewController.m */,
+				16928361233F2F5E001A1293 /* ExpandableTableView.h */,
+				16928362233F2F5E001A1293 /* ExpandableTableView.m */,
+				EA4B1F00233C65E500615DB0 /* ExpandableTableViewCell.h */,
+				EA4B1F01233C65E500615DB0 /* ExpandableTableViewCell.m */,
+				EA8A08CC233C8CF300430524 /* Model */,
+				EAA2B457233B807D00CF8493 /* Main.storyboard */,
+				EAA2B45A233B808000CF8493 /* Assets.xcassets */,
+				EAA2B45C233B808000CF8493 /* LaunchScreen.storyboard */,
+				EAA2B45F233B808000CF8493 /* Info.plist */,
+				EAA2B460233B808000CF8493 /* main.m */,
+				EAA2B483233B81BB00CF8493 /* DEPrefixHeader.pch */,
+			);
+			path = DoubleExpandTableViewDemo;
+			sourceTree = "<group>";
+		};
+		EAA2B469233B808100CF8493 /* DoubleExpandTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2B46A233B808100CF8493 /* DoubleExpandTableViewDemoTests.m */,
+				EAA2B46C233B808100CF8493 /* Info.plist */,
+			);
+			path = DoubleExpandTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		EAA2B474233B808100CF8493 /* DoubleExpandTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2B475233B808100CF8493 /* DoubleExpandTableViewDemoUITests.m */,
+				EAA2B477233B808100CF8493 /* Info.plist */,
+			);
+			path = DoubleExpandTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA2B44A233B807D00CF8493 /* DoubleExpandTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA2B47A233B808100CF8493 /* Build configuration list for PBXNativeTarget "DoubleExpandTableViewDemo" */;
+			buildPhases = (
+				7BD58B2673577B81DD55E2D7 /* [CP] Check Pods Manifest.lock */,
+				EAA2B447233B807D00CF8493 /* Sources */,
+				EAA2B448233B807D00CF8493 /* Frameworks */,
+				EAA2B449233B807D00CF8493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleExpandTableViewDemo;
+			productName = DoubleExpandTableViewDemo;
+			productReference = EAA2B44B233B807D00CF8493 /* DoubleExpandTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA2B465233B808100CF8493 /* DoubleExpandTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA2B47D233B808100CF8493 /* Build configuration list for PBXNativeTarget "DoubleExpandTableViewDemoTests" */;
+			buildPhases = (
+				E3BD3B5EA9A0803A4615F616 /* [CP] Check Pods Manifest.lock */,
+				EAA2B462233B808100CF8493 /* Sources */,
+				EAA2B463233B808100CF8493 /* Frameworks */,
+				EAA2B464233B808100CF8493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA2B468233B808100CF8493 /* PBXTargetDependency */,
+			);
+			name = DoubleExpandTableViewDemoTests;
+			productName = DoubleExpandTableViewDemoTests;
+			productReference = EAA2B466233B808100CF8493 /* DoubleExpandTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAA2B470233B808100CF8493 /* DoubleExpandTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA2B480233B808100CF8493 /* Build configuration list for PBXNativeTarget "DoubleExpandTableViewDemoUITests" */;
+			buildPhases = (
+				285C4153485CD0225B2267AC /* [CP] Check Pods Manifest.lock */,
+				EAA2B46D233B808100CF8493 /* Sources */,
+				EAA2B46E233B808100CF8493 /* Frameworks */,
+				EAA2B46F233B808100CF8493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA2B473233B808100CF8493 /* PBXTargetDependency */,
+			);
+			name = DoubleExpandTableViewDemoUITests;
+			productName = DoubleExpandTableViewDemoUITests;
+			productReference = EAA2B471233B808100CF8493 /* DoubleExpandTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA2B443233B807D00CF8493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "董志玮";
+				TargetAttributes = {
+					EAA2B44A233B807D00CF8493 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					EAA2B465233B808100CF8493 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = EAA2B44A233B807D00CF8493;
+					};
+					EAA2B470233B808100CF8493 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = EAA2B44A233B807D00CF8493;
+					};
+				};
+			};
+			buildConfigurationList = EAA2B446233B807D00CF8493 /* Build configuration list for PBXProject "DoubleExpandTableViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA2B442233B807D00CF8493;
+			productRefGroup = EAA2B44C233B807D00CF8493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA2B44A233B807D00CF8493 /* DoubleExpandTableViewDemo */,
+				EAA2B465233B808100CF8493 /* DoubleExpandTableViewDemoTests */,
+				EAA2B470233B808100CF8493 /* DoubleExpandTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA2B449233B807D00CF8493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2B45E233B808000CF8493 /* LaunchScreen.storyboard in Resources */,
+				EAA2B45B233B808000CF8493 /* Assets.xcassets in Resources */,
+				EAA2B459233B807D00CF8493 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA2B464233B808100CF8493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA2B46F233B808100CF8493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285C4153485CD0225B2267AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoubleExpandTableViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD58B2673577B81DD55E2D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoubleExpandTableViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BD3B5EA9A0803A4615F616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoubleExpandTableViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA2B447233B807D00CF8493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2B456233B807D00CF8493 /* ViewController.m in Sources */,
+				EA4B1F02233C65E500615DB0 /* ExpandableTableViewCell.m in Sources */,
+				16928363233F2F5E001A1293 /* ExpandableTableView.m in Sources */,
+				EAA2B450233B807D00CF8493 /* AppDelegate.m in Sources */,
+				EA8A08CB233C8CE300430524 /* ExperienceModel.m in Sources */,
+				EAA2B461233B808000CF8493 /* main.m in Sources */,
+				EAA2B453233B807D00CF8493 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA2B462233B808100CF8493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2B46B233B808100CF8493 /* DoubleExpandTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA2B46D233B808100CF8493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2B476233B808100CF8493 /* DoubleExpandTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA2B468233B808100CF8493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA2B44A233B807D00CF8493 /* DoubleExpandTableViewDemo */;
+			targetProxy = EAA2B467233B808100CF8493 /* PBXContainerItemProxy */;
+		};
+		EAA2B473233B808100CF8493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA2B44A233B807D00CF8493 /* DoubleExpandTableViewDemo */;
+			targetProxy = EAA2B472233B808100CF8493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA2B457233B807D00CF8493 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA2B458233B807D00CF8493 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA2B45C233B808000CF8493 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA2B45D233B808000CF8493 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA2B478233B808100CF8493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAA2B479233B808100CF8493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA2B47B233B808100CF8493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5651927F33A902E7C0AFC281 /* Pods-DoubleExpandTableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBMWZHA47;
+				GCC_PREFIX_HEADER = DoubleExpandTableViewDemo/DEPrefixHeader.pch;
+				INFOPLIST_FILE = DoubleExpandTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhiwei.DoubleExpandTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA2B47C233B808100CF8493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDF511E85580ABD025E2AB6 /* Pods-DoubleExpandTableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBMWZHA47;
+				GCC_PREFIX_HEADER = DoubleExpandTableViewDemo/DEPrefixHeader.pch;
+				INFOPLIST_FILE = DoubleExpandTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhiwei.DoubleExpandTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA2B47E233B808100CF8493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583B0CF6C7110C2CAAE209D4 /* Pods-DoubleExpandTableViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBMWZHA47;
+				INFOPLIST_FILE = DoubleExpandTableViewDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhiwei.DoubleExpandTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleExpandTableViewDemo.app/DoubleExpandTableViewDemo";
+			};
+			name = Debug;
+		};
+		EAA2B47F233B808100CF8493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1816CBD33EFA22FB0CF99A75 /* Pods-DoubleExpandTableViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBMWZHA47;
+				INFOPLIST_FILE = DoubleExpandTableViewDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhiwei.DoubleExpandTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleExpandTableViewDemo.app/DoubleExpandTableViewDemo";
+			};
+			name = Release;
+		};
+		EAA2B481233B808100CF8493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDCCBE0E99931D70991DB36 /* Pods-DoubleExpandTableViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBMWZHA47;
+				INFOPLIST_FILE = DoubleExpandTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhiwei.DoubleExpandTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleExpandTableViewDemo;
+			};
+			name = Debug;
+		};
+		EAA2B482233B808100CF8493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72264505873888E31583733 /* Pods-DoubleExpandTableViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBMWZHA47;
+				INFOPLIST_FILE = DoubleExpandTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhiwei.DoubleExpandTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleExpandTableViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA2B446233B807D00CF8493 /* Build configuration list for PBXProject "DoubleExpandTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA2B478233B808100CF8493 /* Debug */,
+				EAA2B479233B808100CF8493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA2B47A233B808100CF8493 /* Build configuration list for PBXNativeTarget "DoubleExpandTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA2B47B233B808100CF8493 /* Debug */,
+				EAA2B47C233B808100CF8493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA2B47D233B808100CF8493 /* Build configuration list for PBXNativeTarget "DoubleExpandTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA2B47E233B808100CF8493 /* Debug */,
+				EAA2B47F233B808100CF8493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA2B480233B808100CF8493 /* Build configuration list for PBXNativeTarget "DoubleExpandTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA2B481233B808100CF8493 /* Debug */,
+				EAA2B482233B808100CF8493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA2B443233B807D00CF8493 /* Project object */;
+}
