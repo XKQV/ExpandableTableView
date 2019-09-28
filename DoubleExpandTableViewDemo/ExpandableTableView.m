@@ -120,8 +120,11 @@ static NSString *const expandCellIdentifier = @"expandCellIdentifier";
         self.tableExpand = !self.tableExpand;
         [self reloadData];
         if (!self.tableExpand) {
-            [self scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:3 inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+            [self scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:indexPath.section] atScrollPosition:UITableViewScrollPositionTop animated:NO];
+        } else {
+             [self scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:indexPath.section] atScrollPosition:UITableViewScrollPositionTop animated:NO];
         }
+        
         
         return;
     }
